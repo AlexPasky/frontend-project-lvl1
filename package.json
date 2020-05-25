@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "main": "index.js",
   "engines": {
@@ -29,7 +29,8 @@
   "homepage": "https://github.com/AlexPasky/frontend-project-lvl1#readme",
   "dependencies": {
     "@jest/globals": "^26.0.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "debug": "^4.1.1",
