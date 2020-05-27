@@ -3,11 +3,10 @@
 
 name: Node.js CI
 
+# Trigger the workflow on push or pull request
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  - push
+  - pull_request
 
 jobs:
   build:
