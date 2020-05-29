@@ -13,7 +13,7 @@ const gameEven = () => {
       console.log(`Congratulations  ${userName1} !`);
       return;
     }
-    const rnd = Math.floor((Math.random() * 101) + 1 );
+    const rnd = Math.floor((Math.random() * 101) + 1);
     console.log('Answer "yes" if the number is even, otherwise answer "no". ');
     const answer1 = readlineSync.question(`${rnd} : `);
     console.log(`Your answer: ${answer1}`);
