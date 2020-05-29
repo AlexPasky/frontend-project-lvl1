@@ -18,7 +18,7 @@ const gameGcd = () => {
     console.log('Find the greatest common divisor of given numbers.');
     const answer1 = readlineSync.question(`Question: ${rnd1}   ${rnd2}     `);
     console.log(`Your answer: ${answer1}`);
-    const answer = gcd(rnd1,rnd2);
+    const answer = gcd(rnd1, rnd2);
     const answerNumber = Number(answer1);
     if (answerNumber === answer) {
       console.log('Correct!');
