@@ -7,3 +7,5 @@ $ make install
 
 <a href="https://github.com/AlexPasky/frontend-project-lvl1/nodejs-package/#run-tests" />Run tests</a>
 $ make test
+
+<a href="https://asciinema.org/connect/9df38736-5256-401c-950c-306178ce651d" />Аскинема игры Brain-even</a>
