@@ -7,6 +7,5 @@ const even = (num) => {
   }
   return false;
 };
-console.log(even('jjh'));
 
 export default even;
