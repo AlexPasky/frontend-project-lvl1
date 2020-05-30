@@ -15,3 +15,5 @@ $ make test
 <a href="https://asciinema.org/a/1g38RF7hWbKetUvoLUQUdtZqW" />Аскинема игры Brain-gcd</a>
 
 <a href="https://asciinema.org/a/u3UE7MM2DBMMFPFIm5afWkxUH" />Аскинема игры Brain-progression</a>
+
+<a href="https://asciinema.org/a/qd2M0uZcs3cdtmhGmUFQkdCfy" />Аскинема игры Brain-prime</a>
