@@ -1,4 +1,4 @@
-const prime = (num) => {
+const definePrime = (num) => {
   let primeFlag = false;
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
@@ -17,4 +17,4 @@ const prime = (num) => {
   return 'No';
 };
 
-export default prime;
+export default definePrime;

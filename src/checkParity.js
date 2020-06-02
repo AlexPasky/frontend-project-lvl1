@@ -1,4 +1,4 @@
-const even = (num) => {
+const checkParity = (num) => {
   if (typeof num !== 'number' || num <= 0) {
     return false;
   }
@@ -8,4 +8,4 @@ const even = (num) => {
   return false;
 };
 
-export default even;
+export default checkParity;
