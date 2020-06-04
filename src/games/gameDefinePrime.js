@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import definePrime from '../src/definePrime.js';
+import definePrime from '../definePrime.js';
 
 const gameDefinePrime = (userName) => {
   for (let i = 0; i <= 3; i += 1) {

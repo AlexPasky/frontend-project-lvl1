@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import checkParity from '../src/checkParity.js';
+import checkParity from '../checkParity.js';
 
 const gameCheckParity = (userName) => {
   for (let i = 0; i <= 3; i += 1) {

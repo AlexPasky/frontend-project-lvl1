@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getProgressionOfNumber from '../src/getProgressionOfNumber.js';
+import getProgressionOfNumber from '../getProgressionOfNumber.js';
 
 const gameGetProgression = (userName) => {
   for (let i = 0; i <= 3; i += 1) {

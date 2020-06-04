@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import determinationGcd from '../src/determinationGcd.js';
+import determinationGcd from '../determinationGcd.js';
 
 const gameDeterminationGcd = (userName) => {
   for (let i = 0; i <= 3; i += 1) {

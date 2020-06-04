@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import getUserName from '../src/getUserName.js';
-import gameDeterminationGcd from '../games/gameDeterminationGcd.js';
+import gameDeterminationGcd from '../src/games/gameDeterminationGcd.js';
 
 console.log('Welcome to the Brain Games!');
 const userName = getUserName();
