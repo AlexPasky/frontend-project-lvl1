@@ -4,9 +4,6 @@
 
 <a href="https://codeclimate.com/github/AlexPasky/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/c10dbfcda0486a3a090d/maintainability" /></a>
 
-<a href="https://github.com/AlexPasky/frontend-project-lvl1/nodejs-package/#setup" />Setup</a>
-$ make install
-
 <a href="https://github.com/AlexPasky/frontend-project-lvl1/nodejs-package/#run-tests" />Run tests</a>
 $ make test
 
