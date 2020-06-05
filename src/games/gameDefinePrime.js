@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 import definePrime from '../definePrime.js';
+import getUserName from '../getUserName.js';
 
-const gameDefinePrime = (userName) => {
+const gameDefinePrime = () => {
+  const userName = getUserName();
   for (let i = 0; i <= 3; i += 1) {
     if (i === 3) {
       console.log(`Congratulations  ${userName} !`);

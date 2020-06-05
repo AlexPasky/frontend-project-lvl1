@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 import getProgressionOfNumber from '../getProgressionOfNumber.js';
+import getUserName from '../getUserName.js';
 
-const gameGetProgression = (userName) => {
+const gameGetProgression = () => {
+  const userName = getUserName();
   for (let i = 0; i <= 3; i += 1) {
     if (i === 3) {
       console.log(`Congratulations  ${userName} !`);

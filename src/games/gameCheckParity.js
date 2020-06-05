@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 import checkParity from '../checkParity.js';
+import getUserName from '../getUserName.js';
 
-const gameCheckParity = (userName) => {
+const gameCheckParity = () => {
+  const userName = getUserName();
   for (let i = 0; i <= 3; i += 1) {
     if (i === 3) {
       console.log(`Congratulations  ${userName} !`);
